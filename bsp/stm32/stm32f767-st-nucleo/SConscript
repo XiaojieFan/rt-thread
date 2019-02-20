@@ -1,8 +1,14 @@
 # for module compiling
 import os
 Import('RTT_ROOT')
+<<<<<<< HEAD
 
 cwd = str(Dir('#'))
+=======
+from building import *
+
+cwd = GetCurrentDir()
+>>>>>>> upstream/master
 objs = []
 list = os.listdir(cwd)
 

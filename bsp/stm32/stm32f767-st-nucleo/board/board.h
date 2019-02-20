@@ -5,8 +5,13 @@
  *
  * Change Logs:
  * Date           Author       Notes
+<<<<<<< HEAD
  * 2018-11-5      SummerGift   change to new framework
  * 2019-1-10      e31207077    change to new framework
+=======
+ * 2018-11-5      SummerGift   first version
+ * 2019-1-10      e31207077    add stm32f767-st-nucleo bsp
+>>>>>>> upstream/master
  */
 
 #ifndef __BOARD_H__
@@ -15,6 +20,10 @@
 #include <rtthread.h>
 #include <stm32f7xx.h>
 #include "drv_common.h"
+<<<<<<< HEAD
+=======
+#include "drv_gpio.h"
+>>>>>>> upstream/master
 
 #define STM32_FLASH_START_ADRESS     ((uint32_t)0x08000000)
 #define STM32_FLASH_SIZE             (2048 * 1024)

@@ -5,8 +5,13 @@
  *
  * Change Logs:
  * Date           Author       Notes
+<<<<<<< HEAD
  * 2018-11-06     SummerGift   change to new framework
  * 2019-1-10      e31207077    change to new framework
+=======
+ * 2018-11-06     SummerGift   first version
+ * 2019-1-10      e31207077    add stm32f767-st-nucleo bsp
+>>>>>>> upstream/master
  */
 
 #include "board.h"
